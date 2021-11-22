@@ -1,0 +1,18 @@
+/* .loader{
+    width: 7.5%;
+    margin-left: 43%;
+    padding-top: 45vh;
+} */
+.loader{
+    position: fixed; /* or absolute */
+    top: 42%;
+    left: 42%;
+}
+@media screen and (max-width: 700px) {
+    
+    .loader{
+        position: fixed; /* or absolute */
+        top: 42%;
+        left: 38%;
+    }
+  }
